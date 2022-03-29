@@ -94,10 +94,12 @@ Game::Game() {
 
 void Game::welcome() {
 
-	cout << "---------------------------------------" << endl;
-    cout << "|============== CRIC-IN ==============|" << endl;
+    cout << "---------------------------------------" << endl;
+    cout << "|=====================================|" << endl;
     cout << "|                                     |" << endl;
     cout << "|   Welcome to Virtual Cricket Game   |" << endl;
+    cout << "|                                     |" << endl;
+    cout << "|=====================================|" << endl;
     cout << "---------------------------------------" << endl;
 
     cout << endl << endl;
@@ -108,7 +110,7 @@ void Game::welcome() {
     cout << "| 1. Create 2 teams (Team-A and Team-B with 4      |" << endl;
     cout << "|    players each) from a given pool of 11 players.|" << endl;
     cout << "| 2. Lead the toss and decide the choice of play.  |" << endl;
-    cout << "| 3. Each innings will be of 6 balls.              |" << endl;
+    cout << "| 3. Each team will play one over.                 |" << endl;
     cout << "----------------------------------------------------" << endl;
 }
 
